@@ -41,7 +41,7 @@ public class Adivinanzas {
                 }
             }
 
-            System.out.println("6. Manual de Instrucciones");
+            System.out.println("6. Guía de juego");
             System.out.println("0. Salir");
 
             System.out.print("Elige una opción: ");
@@ -99,14 +99,13 @@ public class Adivinanzas {
     }
 
     private static void mostrarManual() {
-        System.out.println("Manual de Instrucciones:");
-        System.out.println("1. Elige un número del 1 al 5 para seleccionar un lenguaje de programación.");
-        System.out.println("2. Se te darán pistas sobre el lenguaje de programación.");
-        System.out.println("3. Intenta adivinar el lenguaje de programación escribiendo su nombre.");
-        System.out.println("4. Si adivinas, la palabra se mostrará correctamente en el menú.");
-        System.out.println("5. Tienes un total de 5 intentos para adivinar cada lenguaje.");
-        System.out.println(
-                "6. Puedes seleccionar la opción 'Manual de Instrucciones' en el menú para ver estas instrucciones.");
-        System.out.println("7. ¡Diviértete adivinando los lenguajes de programación!");
+        System.out.println("\nAquí tienes una guía para disfrutar del juego al máximo:\n");
+        System.out.println("Selecciona un número del 1 al 5 para elegir un lenguaje de programación.");
+        System.out.println("Te proporcionaremos pistas sobre el lenguaje seleccionado.");
+        System.out.println("Intenta adivinar el nombre del lenguaje de programación escribiéndolo.");
+        System.out.println("Si adivinas correctamente, verás la palabra revelada en el menú principal.");
+        System.out.println("Tienes un total de 5 intentos para adivinar cada lenguaje.");
+        System.out.println("Si necesitas ayuda, selecciona 'Manual de Instrucciones' en el menú.");
+        System.out.println("¡Diviértete explorando el mundo de los lenguajes de programación!\n\n");
     }
 }
